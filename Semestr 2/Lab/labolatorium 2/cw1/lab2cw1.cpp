@@ -29,8 +29,8 @@ public:
 
 int main()
 {
-    Pracownik prl;
-    prl.wczytaj();
-    prl.wypisz();
+    Pracownik prl[10];
+    prl[10].wczytaj();
+    prl[10].wypisz();
 
 }
